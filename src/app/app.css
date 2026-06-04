@@ -1,0 +1,62 @@
+:host{
+    display:block;
+    background:#0f172a;
+    min-height:100vh;
+}
+
+/* HERO */
+
+.hero{
+    min-height:40vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(
+        135deg,
+        #081425,
+        #10284b
+    );
+}
+
+.hero-overlay{
+    color:white;
+}
+
+.hero h2{
+    color:#ffc107;
+}
+
+/* TARJETAS */
+
+.integrante-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.integrante-card:hover{
+    transform:translateY(-8px);
+}
+
+.foto-perfil{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #ffc107;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#081425;
+    color:white;
+    padding:30px 0;
+    margin-top:50px;
+}
+
+.footer p{
+    margin:0;
+}

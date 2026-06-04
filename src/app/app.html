@@ -1,40 +1,109 @@
-<div class="container mt-5">
+<section class="hero">
 
-  <div class="text-center mb-5">
-    <h1>Presentación del Equipo</h1>
-    <p class="lead">
-      Universidad Nacional Mayor de San Marcos
-    </p>
-  </div>
+  <div class="hero-overlay">
 
-  <div class="row">
+    <div class="container text-center">
 
-    <div class="col-md-4">
-      <div class="card shadow">
-        <img src="https://via.placeholder.com/300x300"
-             class="card-img-top">
+      <span class="badge bg-warning text-dark mb-3">
+        Inteligencia Artificial · Angular · Bootstrap
+      </span>
 
-        <div class="card-body">
-          <h5 class="card-title">
-            Luis Alfredo Huaman Puente
-          </h5>
+      <h1 class="display-2 fw-bold">
+        Grupo 2
+      </h1>
 
-          <p>
-            Data Scientist
-          </p>
+      <h2>
+        Maestría en Inteligencia Artificial
+      </h2>
 
-          <p>
-            luis@email.com
-          </p>
+      <p class="lead mt-3">
+        Universidad Nacional Mayor de San Marcos
+      </p>
 
-          <p>
-            Líder del equipo y responsable del desarrollo.
-          </p>
-        </div>
-
-      </div>
     </div>
 
   </div>
 
-</div>
+</section>
+
+<section class="container py-5">
+
+  <div class="text-center mb-5">
+
+    <h2 class="fw-bold text-white">
+      Integrantes del Equipo
+    </h2>
+
+    <p class="text-light">
+      Presentación Oficial del Grupo 2
+    </p>
+
+  </div>
+
+  <div class="row g-4">
+
+    @for (integrante of integrantes; track integrante.nombre) {
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card integrante-card h-100">
+
+          <div class="text-center pt-4">
+
+            <img
+              [src]="integrante.foto"
+              [alt]="integrante.nombre"
+              class="foto-perfil">
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5 class="fw-bold">
+              {{ integrante.nombre }}
+            </h5>
+
+            <span class="badge bg-warning text-dark mb-3">
+              {{ integrante.rol }}
+            </span>
+
+            <p>
+              <strong>Especialidad:</strong><br>
+              {{ integrante.especialidad }}
+            </p>
+
+            <p>
+              {{ integrante.descripcion }}
+            </p>
+
+            <p>
+              📧 {{ integrante.correo }}
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    }
+
+  </div>
+
+</section>
+
+<footer class="footer">
+
+  <div class="container text-center">
+
+    <p>
+      © 2026 - Grupo 2
+    </p>
+
+    <p>
+      Maestría en Inteligencia Artificial - UNMSM
+    </p>
+
+  </div>
+
+</footer>
