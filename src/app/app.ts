@@ -16,7 +16,7 @@ export class App {
       rol: 'Senior Data Scientist',
       especialidad: 'Data Science, Machine Learning e Inteligencia Artificial',
       correo: 'luis.huaman.p@uni.pe',
-      descripcion: `Ingeniero Estadístico y candidato a Magíster en Inteligencia Artificial 
+      descripcion: `Ingeniero Estadístico de la Universidad Nacional de Ingenieria y candidato a Magíster en Inteligencia Artificial 
       por la UNMSM. Cuento con más de 10 años de experiencia desarrollando soluciones 
       analíticas, modelos predictivos y automatización de procesos en sectores salud, 
       educación y contact center. He liderado proyectos de Machine Learning, 
@@ -59,9 +59,9 @@ export class App {
 
     {
       nombre: 'Eugenio Felix Alvarado Espichan',
-      rol: 'Integrante',
-      especialidad: 'Inteligencia Artificial',
-      correo: 'eugenio@email.com',
+      rol: 'Project Manager y Consultor SAP',
+      especialidad: 'Gestión de Proyectos y consultoría SAP FI, CO, MM y SD',
+      correo: 'fe.alvarado.e@gmail.com',
       descripcion: `Project Manager y Consultor SAP con más de 20 años de
       experiencia liderando soluciones Back Office SAP a gran escala y de
       migración a S/4HANA en los sectores retail, agroindustrial,
@@ -76,15 +76,21 @@ export class App {
       con Dominio del inglés y abierto a oportunidades y mejoras.`,
       foto: 'img/felix.jpeg'
     },
-
-
     {
       nombre: 'Wilson Castañeda Ayay',
-      rol: 'Integrante',
-      especialidad: 'Inteligencia Artificial',
-      correo: 'wilson@email.com',
-      descripcion: 'Interesado en aplicaciones empresariales de IA.',
-      foto: 'img/imagen4.jpg'
+      rol: 'Arquitecto soluciones tegrante',
+      especialidad: 'Consultoría en soluciones de datos y analítica',
+      correo: 'wilson.castanedaa@unmsm.edu.pe',
+      descripcion: `Experiencia en ingeniería y consultoría de proyectos 
+      tecnológicos en banca, telecomunicaciones y energía;
+      Ingeniero titulado en la Universidad Nacional de Ingeniería. 
+      Durante más de 15 años he desarrollado mi carrera en la empresa 
+      Teradata Corporation, atendiendo proyectos en diversos clientes 
+      de Latinoamérica, ocupando cargos como arquitecto de soluciones, 
+      líder técnico, especialista en ecosistemas analíticos. 
+      Actualmente me desempeño como arquitecto empresarial
+      en la banca retail.`,
+      foto: 'img/wilson.jpeg'
     }
   ];
 
