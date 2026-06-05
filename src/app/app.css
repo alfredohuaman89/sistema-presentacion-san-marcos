@@ -7,7 +7,7 @@
 /* HERO */
 
 .hero{
-    min-height:40vh;
+    min-height:50vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -16,14 +16,31 @@
         #081425,
         #10284b
     );
+    padding:60px 0;
 }
 
 .hero-overlay{
+    color:white;
+    width:100%;
+}
+
+.hero h1{
     color:white;
 }
 
 .hero h2{
     color:#ffc107;
+    font-weight:700;
+}
+
+/* LOGO */
+
+.logo-unmsm{
+    width:100%;
+    max-width:350px;
+    height:auto;
+    display:block;
+    margin:auto;
 }
 
 /* TARJETAS */
